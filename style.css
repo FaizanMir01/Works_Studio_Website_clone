@@ -7,6 +7,21 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.loader{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+.loader h1{
+    font-size:6vw ;
+    font-weight: 100;
+    line-height: 5vw;
+    letter-spacing: -3px;
+}
 .page1{
     height: 100vh;
     width: 100%;
@@ -14,6 +29,13 @@ html,body{
     display: flex;
     align-self: center;
     justify-content: center;
+    text-align: center;
+}
+.page1 h1{
+    font-size:6vw ;
+    font-weight: 100;
+    line-height: 5vw;
+    letter-spacing: -3px;
 }
 .page2{
     height: 100vh;

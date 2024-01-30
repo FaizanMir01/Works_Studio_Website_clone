@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Source Serif 4', serif;
 }
 html,body{
     height: 100%;
@@ -24,6 +26,7 @@ html,body{
     position: relative;
     letter-spacing: -3px;
     z-index: 9;
+    text-align: center;
 }
 .loader video{
     width: 100%;
@@ -60,6 +63,7 @@ html,body{
     font-weight: 100;
     line-height: 5vw;
     letter-spacing: -3px;
+    text-align: center;
 }
 .page2{
     height: 100vh;

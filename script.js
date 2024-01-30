@@ -24,6 +24,6 @@ tl.to(".loader",{
 loading();
 
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('.main'),
+    el: document.querySelector('#main'),
     smooth: true
 });

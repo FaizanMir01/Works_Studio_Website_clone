@@ -40,14 +40,14 @@ html,body{
     width: 100%;
     background-color: #f5e41b;
     position: absolute;
-    z-index: 7;
+    z-index: 8;
 }
 .yellow2{
     height: 100%;
     width: 100%;
     background-color: #f5e41b;
     position: absolute;
-    z-index: 8;
+    z-index: 7;
 }
 .page1{
     height: 100vh;

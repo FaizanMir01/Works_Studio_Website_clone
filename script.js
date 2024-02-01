@@ -1,8 +1,5 @@
 
-/* const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-}); */
+
 var tl = gsap.timeline();
 tl.to(".yellow1", {
     top: "-100%",
@@ -34,5 +31,8 @@ tl.to(".loader", {
 
 
 
-
+/* const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+}); */
 

@@ -75,3 +75,12 @@ html,body{
     width: 100%;
     background-color: #ffffff;
 }
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 1rem 5rem;
+}
+.logo svg path{
+    fill:#000000;
+}

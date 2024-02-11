@@ -36,3 +36,18 @@ tl.to(".loader", {
     smooth: true
 }); */
 
+
+ var elem = document.querySelectorAll(".elem");
+ var page2 = document.querySelector(".page2");
+
+ elem.forEach((item)=>{
+    item.addEventListener("mouseenter",()=>{
+        var bgImg = item.getAttribute("data-img");
+        page2.style.backgroundImage = `url(${bgImg})`
+    
+
+    })
+    
+
+ })
+

@@ -18,6 +18,7 @@ html,body{
     background-color: #000000a4;
     color: white;
     position: fixed;
+/*     display: none; */
 }
 .loader h1{
     font-size:6vw ;
@@ -65,16 +66,6 @@ html,body{
     letter-spacing: -3px;
     text-align: center;
 }
-.page2{
-    height: 100vh;
-    width: 100%;
-    background-color: #000000;
-}
-.page3{
-    height: 100vh;
-    width: 100%;
-    background-color: #ffffff;
-}
 .nav{
     width: 100%;
     position: absolute;
@@ -83,4 +74,114 @@ html,body{
 }
 .logo svg path{
     fill:#000000;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.elem{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    
+}
+.elem h2{
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;
+    z-index:4;
+    line-height: 5.9vw;
+    font-weight: 500;
+    transition: .2s;
+    
+}
+.elem h2:hover{
+    color: #000000;
+    
+}
+.scroller{
+    width: 100%;
+    background-color: yellow;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0);
+    z-index: 2;
+    transition: all .2s;
+}
+.scroll-content{
+    display: inline-block;
+    padding: .5rem .2rem;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+.scroller .scroll-content h5{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 1.2rem;
+    font-weight: 400;
+}
+.blur{
+    height: 100%;
+    width: 40%;
+    background:linear-gradient(to right, rgba(255, 255, 0, 0.932) ,yellow,rgba(255, 255, 0, 0.932));
+    z-index: 3;
+    box-shadow: 10px 0px 15px 10px yellow, -10px 0px 15px 10px yellow;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+@keyframes moving {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.elem:hover .scroller{
+    transform: translateY(-50%) scaleY(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
 }

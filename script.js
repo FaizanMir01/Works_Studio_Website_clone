@@ -45,8 +45,8 @@ tl.to(".loader", {
         var bgImg = item.getAttribute("data-img");
         page2.style.backgroundImage = `url(${bgImg})`
     
-
     })
+    
     
 
  })

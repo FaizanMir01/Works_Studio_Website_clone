@@ -18,6 +18,7 @@ html,body{
     background-color: #000000a4;
     color: white;
     position: fixed;
+    z-index: 99;
 }
 .loader h1{
     font-size:6vw ;

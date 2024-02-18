@@ -31,10 +31,10 @@ tl.to(".loader", {
 
 
 
-/* const scroll = new LocomotiveScroll({
+const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
-}); */
+});
 
 
  var elem = document.querySelectorAll(".elem");

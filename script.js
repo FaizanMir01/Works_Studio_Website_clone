@@ -46,8 +46,17 @@ tl.to(".loader", {
         page2.style.backgroundImage = `url(${bgImg})`
     
     })
-    
-    
-
  })
 
+
+ function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Add click event listener to the Back to Top button
+document.getElementById("backtoTop").addEventListener("click", function() {
+    scrollToTop();
+});

@@ -277,3 +277,32 @@ html,body{
 .footer p:hover::after{
     transform: scale(1);
 }
+
+@media (max-width:780px) {
+    .img-container{
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .img-div{
+        height:50vw;
+        width: 40vw;
+        position: relative;
+    }}
+    .overlay p{
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        opacity: 0;
+    }
+    .footer p{
+        font-size: 1rem;
+        text-transform: uppercase;
+        position: relative;
+        cursor: pointer;
+    }
+
+
+
